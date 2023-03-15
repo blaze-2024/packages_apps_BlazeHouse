@@ -51,6 +51,12 @@
                android:summary="%s"
                android:title="@string/qs_transitions_title" />
 
+          <com.blaze.house.preferences.SystemSettingSwitchPreference
+               android:title="Brightness Percentage"
+               android:key="BRIGHTNESS_TEXTVIEW"
+               android:summary="show hide brightness percentage text"
+               android:defaultValue="false" />
+
      </PreferenceCategory>
     
     <PreferenceCategory
