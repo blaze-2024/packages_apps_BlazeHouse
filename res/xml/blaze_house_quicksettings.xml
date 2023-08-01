@@ -90,7 +90,6 @@
      <PreferenceCategory
           android:title="@string/qs_tile_title">
 
-            
           <com.blaze.house.preferences.SystemSettingListPreference
               android:key="qs_ui_style"
         	    android:title="@string/qs_ui_title"
@@ -98,6 +97,13 @@
         	    android:entryValues="@array/qs_ui_values"
         	    android:summary="%s"
         	    android:defaultValue="0" />
+        	
+          <com.blaze.house.preferences.SecureSettingListPreference
+                android:key="qs_tile_shape"
+                android:title="@string/qs_tile_shape"
+                android:entries="@array/qs_tile_shape_entries"
+                android:entryValues="@array/qs_tile_shape_values"
+                android:defaultValue="2" />
             
           <com.blaze.house.preferences.SystemSettingSeekBarPreference
             android:key="qs_layout_columns"
